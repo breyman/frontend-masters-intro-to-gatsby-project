@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import Layout from '../components/layout';
+import Layout from '../../components/layout';
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -25,7 +25,10 @@ export default function Template({
 
 export const pageQuery = graphql`
   query ($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+    markdownRemark(
+      id: { eq: $id }
+      frontmatter: { type: { eq: "portfolio" } }
+    ) {
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")

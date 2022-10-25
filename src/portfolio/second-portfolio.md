@@ -1,8 +1,8 @@
 ---
-slug: '/first-blog'
+slug: '/second-portfolio'
 date: '2022-10-22'
-title: 'My first blog post'
-type: 'blog'
+title: 'My second portfolio post'
+type: 'portfolio'
 ---
 
 ### First post details from Brian
