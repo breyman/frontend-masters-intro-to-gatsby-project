@@ -1,6 +1,6 @@
 ---
-slug: '/first-blog'
-date: '2022-10-22'
+slug: '/blog/first-blog'
+date: 2022-10-22
 title: 'My first blog post'
 type: 'blog'
 ---
